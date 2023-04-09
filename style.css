@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: .9;
+    color:seashell;
+}
+
+a {
+    color:gray;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 26px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+header {
+    display: flex;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+    
+.nav-links  {
+    list-style: none;
+    display: inline-flex;
+    color: gray;
+}
+
+li {
+    padding: 0px 15px;
+}
+
+.container  {
+    margin: auto;
+}
+
+
+#mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url("image/img-mission-background.jpg");
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.mission-wrapper h2, .mission-wrapper h4 {
+    padding: 0.6rem;
+}
+
+.mission-wrapper {
+    width: 100%;
+    background-color: black;
+}
+#totm {
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 80px;
+
+}
+.img-gallery {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-wrapper h2, .gallery-wrapper h4{
+    padding-bottom: 1rem;
+}
+
+.img-item img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+#location{
+height: 500px;
+width: 1200px;
+margin-bottom: 80px;
+background-position: center;
+background-image: url("image/img-locations-background.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.location-wrapper h2 {
+    padding-bottom: 15px;
+}
+
+.location-wrapper h5 {
+    font-weight: 400;
+}
+.wrapper-box {
+    display: flex;
+    justify-content: space-between;
+}
+.container-box {
+    margin: auto;
+    max-width: 1050px;
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#contact {
+    margin-bottom: 30px;
+}
+
+#contact h2 {
+    margin-top: 12px;
+}
+.container-wrapper{
+    height: 200px;
+}
+#contact h5 {
+    font-size: 18px;
+    padding-top: 40px;
+}
+
+footer h5 {
+    padding-left: 20px;
+    padding-bottom: 50px;
+    text-align: left;
+}
